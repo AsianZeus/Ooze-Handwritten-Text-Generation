@@ -1,19 +1,15 @@
 from keras_contrib.layers.normalization.instancenormalization import InstanceNormalization
-from tensorflow.keras.models import load_model
-from tensorflow.keras import Sequential
 from flask import Flask, redirect, url_for, render_template, request, make_response
-import numpy as np
 from PIL import Image, ImageDraw, ImageFont
+import tensorflow as tf
+import numpy as np
 import cv2
 import os
-import tensorflow as tf
+import gc
 
-config = tf.compat.v1.ConfigProto()
-config.gpu_options.allow_growth = True
-session = tf.compat.v1.InteractiveSession(config=config)
+g_model = tf.keras.models.load_model('model.h5',custom_objects={'InstanceNormalization':InstanceNormalization},compile=False)
 
 app = Flask(__name__)
-g_model = load_model('model.h5',custom_objects={'InstanceNormalization':InstanceNormalization})
 
 count=0
 @app.route('/')
@@ -22,7 +18,6 @@ def hello_world():
     for i in files:
         if(i != 'style.css'):
             os.remove(f'static/{i}')
-    print(files)
     return render_template("index.html") 
 
 def text2str(text):
@@ -57,8 +52,9 @@ def ValuePredictor(text):
 
         img = img.reshape((256,256))
         farray.append(img)
+        del Ximg, img, temp
+        gc.collect()
     imx=cv2.hconcat(farray)
-    print('0-->>>',imx.shape)
     fname=f'image_{count}.png'
     cv2.imwrite(f'static/{fname}',cv2.convertScaleAbs(imx, alpha=(255.0)))
     count+=1
@@ -73,5 +69,4 @@ def result():
         return render_template("result.html", prediction = prediction)
 
 if __name__ == '__main__':
-    
-    app.run(debug=True)
+    app.run(debug=False)
