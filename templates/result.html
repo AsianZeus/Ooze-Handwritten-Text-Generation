@@ -1,0 +1,25 @@
+<!doctype html> 
+<html> 
+   <head>
+      <title>Results</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+      <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+   </head>
+   <body>
+      <div class="container">
+         <div class="myCard">
+             <div class="ctx">
+                <img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto;" src={{url_for('static', filename=prediction)}} alt="image">
+               </div>
+               <button id="myButton" class="butt" >Try Another</button>
+               <script type="text/javascript">
+                  document.getElementById("myButton").onclick = function () {
+                     location.href = "/";
+                  };
+               </script>
+         </div>
+      </div>
+   </body> 
+</html> 
