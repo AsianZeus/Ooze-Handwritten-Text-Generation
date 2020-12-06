@@ -20,7 +20,7 @@ keras-contrib @ git+https://www.github.com/keras-team/keras-contrib.git@3fc5ef70
 Keras-Preprocessing==1.1.2
 Markdown==3.3.3
 MarkupSafe==1.1.1
-numpy==1.19.4
+numpy==1.19.3
 oauthlib==3.1.0
 opencv-python==4.4.0.46
 opt-einsum==3.3.0
@@ -34,10 +34,7 @@ requests-oauthlib==1.3.0
 rsa==4.6
 scipy==1.4.1
 six==1.15.0
-tensorboard==2.2.2
-tensorboard-plugin-wit==1.7.0
 tensorflow==2.2.0
-tensorflow-estimator==2.2.0
 termcolor==1.1.0
 urllib3==1.26.2
 Werkzeug==1.0.1
