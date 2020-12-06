@@ -23,7 +23,7 @@ def hello_world():
 def text2str(text):
     img = Image.new('RGB', (900, 800),color = (255, 255, 255))
     d = ImageDraw.Draw(img)
-    font = ImageFont.truetype("arial.ttf", 50)
+    font = ImageFont.truetype("font/arial.ttf", 50)
     d.text((0,0), text, font=font,fill=(0,0,0))
     text_width, text_height = d.textsize(text,font=font)
     open_cv_image = np.array(img)
