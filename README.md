@@ -1217,8 +1217,6 @@
         </span><span class="p">Add Validation dataset: To monitor variance and bias</span></p>
     <p class="s30" style="padding-top: 2pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;"><span class="s1">
         </span><span class="p">Change Loss function: Wasserstein Loss</span></p>
-    <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="28" alt="image"
-                src="DocImage/Image_075.png" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="515" height="269" alt="image"
                 src="DocImage/Image_076.jpg" /></span></p>
     <p class="s24" style="padding-top: 3pt;padding-left: 10pt;text-indent: 0pt;text-align: left;">PIX2PIX LOSS LOGS</p>
