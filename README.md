@@ -89,7 +89,7 @@
         distribution of the training set so as to generate new data points with some variations.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 127pt;text-indent: 0pt;text-align: left;"><span><img width="388" height="148" alt="image"
-                src="366077674/Image_004.jpg" /></span></p>
+                src="DocImage/Image_004.jpg" /></span></p>
     <p class="s16" style="padding-top: 11pt;padding-left: 206pt;text-indent: 0pt;text-align: center;">Figure 1 Deep
         Generative Models</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
@@ -104,7 +104,7 @@
         some variability.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="29" alt="image"
-                src="366077674/Image_005.png" /></span></p>
+                src="DocImage/Image_005.png" /></span></p>
     <p class="s17" style="padding-left: 10pt;text-indent: 0pt;text-align: justify;">VARIATIONAL AUTO ENCODER</p>
     <p style="padding-top: 12pt;padding-left: 10pt;text-indent: 0pt;line-height: 114%;text-align: justify;"><span
             style=" color: #212529;">Kingma et al. introduced about the Variational Autoencoder in the paper</span>[4]
@@ -138,7 +138,7 @@
         discriminator tries to distinguish fake images from real ones. GAN loss function is as follows:</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 66pt;text-indent: 0pt;text-align: left;"><span><img width="550" height="34" alt="image"
-                src="366077674/Image_006.jpg" /></span></p>
+                src="DocImage/Image_006.jpg" /></span></p>
     <p style="padding-top: 12pt;padding-left: 10pt;text-indent: 0pt;line-height: 115%;text-align: justify;">where x is
         an actual image whose distribution is subject to pdata(x). z is a random vector (or hidden state) whose
         distribution is subject to some predefined distribution pz(z). D(x) stands for the discriminator and output its
@@ -151,7 +151,7 @@
         “real.” The “min-max two-player game” stands for the competition between generator and discriminator.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 137pt;text-indent: 0pt;text-align: left;"><span><img width="356" height="128" alt="image"
-                src="366077674/Image_007.jpg" /></span></p>
+                src="DocImage/Image_007.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p class="s16" style="padding-left: 206pt;text-indent: 0pt;text-align: center;">Figure 2 GANS</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
@@ -231,7 +231,7 @@
             APPROACH </span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="29" alt="image"
-                src="366077674/Image_008.png" /></span></p>
+                src="DocImage/Image_008.png" /></span></p>
     <p class="s17" style="padding-top: 11pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">PIX2PIX</p>
     <p style="padding-top: 5pt;padding-left: 10pt;text-indent: 0pt;line-height: 123%;text-align: justify;">The Pix2Pix
         Generative Adversarial Network, or GAN, is an approach to training a deep convolutional neural network for
@@ -251,7 +251,7 @@
         whether the target is a plausible transformation of the source image.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="29" alt="image"
-                src="366077674/Image_009.png" /></span></p>
+                src="DocImage/Image_009.png" /></span></p>
     <p class="s24" style="padding-left: 10pt;text-indent: 0pt;text-align: justify;">GENERATOR</p>
     <p style="padding-top: 5pt;padding-left: 10pt;text-indent: 0pt;line-height: 123%;text-align: justify;">The generator
         is trained via adversarial loss, which encourages the generator to generate plausible images in the target
@@ -264,7 +264,7 @@
         the input.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 195pt;text-indent: 0pt;text-align: left;"><span><img width="205" height="145" alt="image"
-                src="366077674/Image_010.jpg" /></span></p>
+                src="DocImage/Image_010.jpg" /></span></p>
     <p class="s16" style="padding-top: 11pt;padding-left: 206pt;text-indent: 0pt;text-align: center;">Figure 3 U-Net</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 10pt;text-indent: 0pt;line-height: 114%;text-align: justify;">The Skip Connections in the
@@ -278,7 +278,7 @@
         standardized blocks of convolutional, <u>batch normalization</u>, <u>dropout</u>, and activation layers.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="29" alt="image"
-                src="366077674/Image_011.png" /></span></p>
+                src="DocImage/Image_011.png" /></span></p>
     <p class="s24" style="padding-top: 4pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">DISCRIMINATOR</p>
     <p style="padding-top: 12pt;padding-left: 10pt;text-indent: 0pt;line-height: 114%;text-align: justify;">The
         discriminator is a deep convolutional neural network that performs image classification. Specifically,
@@ -293,40 +293,40 @@
         averaged to give an overall likelihood or classification score if needed.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 186pt;text-indent: 0pt;text-align: left;"><span><img width="227" height="197" alt="image"
-                src="366077674/Image_012.png" /></span></p>
+                src="DocImage/Image_012.png" /></span></p>
     <p class="s16" style="padding-top: 9pt;padding-left: 195pt;text-indent: 0pt;text-align: center;">Figure 4 PatchGAN
     </p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="29" alt="image"
-                src="366077674/Image_013.png" /></span></p>
+                src="DocImage/Image_013.png" /></span></p>
     <p class="s24" style="padding-top: 8pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">DUAL OBJECTIVE
         FUNCTION WITH ADVERSARIAL AND L1 LOSS</p>
     <p style="padding-top: 12pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">The Conditional-Adversarial
         Loss (Generator versus Discriminator) is very popularly formatted as follows:</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 167pt;text-indent: 0pt;text-align: left;"><span><img width="279" height="54" alt="image"
-                src="366077674/Image_014.jpg" /></span></p>
+                src="DocImage/Image_014.jpg" /></span></p>
     <p style="padding-top: 12pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">The L1 loss function
         previously mentioned is shown below:</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 179pt;text-indent: 0pt;text-align: left;"><span><img width="246" height="44" alt="image"
-                src="366077674/Image_015.jpg" /></span></p>
+                src="DocImage/Image_015.jpg" /></span></p>
     <p style="padding-top: 12pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">Combining these functions
         results in:</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 149pt;text-indent: 0pt;text-align: left;"><span><img width="323" height="43" alt="image"
-                src="366077674/Image_016.jpg" /></span></p>
+                src="DocImage/Image_016.jpg" /></span></p>
     <p style="padding-left: 121pt;text-indent: 0pt;text-align: left;"><span><img width="397" height="218" alt="image"
-                src="366077674/Image_017.jpg" /></span></p>
+                src="DocImage/Image_017.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 108pt;text-indent: 0pt;text-align: left;"><span><img width="433" height="230" alt="image"
-                src="366077674/Image_018.jpg" /></span></p>
+                src="DocImage/Image_018.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p class="s16" style="padding-top: 4pt;padding-left: 195pt;text-indent: 0pt;text-align: center;">Figure 5 Pix2Pix
         Architecture</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="28" alt="image"
-                src="366077674/Image_019.png" /></span></p>
+                src="DocImage/Image_019.png" /></span></p>
     <p class="s24" style="padding-top: 8pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">PROBLEM WITH
         PIX2PIX:</p>
     <ol id="l2">
@@ -351,7 +351,7 @@
         area with white space or squishing the words to resize it in form of (NxN), yet it will be very difficult to
         recover input’s original dimension.</p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="29" alt="image"
-                src="366077674/Image_020.png" /></span></p>
+                src="DocImage/Image_020.png" /></span></p>
     <p class="s17" style="padding-top: 3pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">CYCLEGAN</p>
     <p style="padding-top: 12pt;padding-left: 10pt;text-indent: 0pt;line-height: 114%;text-align: justify;">The CycleGAN
         model was described by Jun-Yan Zhu, et al. in their 2017 paper[7] titled “Unpaired Image-to- Image Translation
@@ -369,12 +369,12 @@
         generator against a discriminator.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 135pt;text-indent: 0pt;text-align: left;"><span><img width="365" height="226" alt="image"
-                src="366077674/Image_021.jpg" /></span></p>
+                src="DocImage/Image_021.jpg" /></span></p>
     <p class="s16" style="padding-top: 10pt;padding-left: 195pt;text-indent: 0pt;text-align: center;">Figure 6 Paired
         unpaired Images</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="29" alt="image"
-                src="366077674/Image_022.png" /></span></p>
+                src="DocImage/Image_022.png" /></span></p>
     <p class="s24" style="padding-top: 8pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">COMPONENTS</p>
     <p style="padding-top: 12pt;padding-left: 10pt;text-indent: 0pt;line-height: 114%;text-align: justify;">The CycleGAN
         proposes four models instead of the usual two. The first generator, which we’ll call Generator A, is for
@@ -411,21 +411,21 @@
         Together, the models find equilibrium during the training process.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="28" alt="image"
-                src="366077674/Image_023.png" /></span></p>
+                src="DocImage/Image_023.png" /></span></p>
     <p class="s24" style="padding-left: 10pt;text-indent: 0pt;text-align: justify;">NETWORK ARCHITECTURE</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 10pt;text-indent: 0pt;text-align: left;"><span><img width="478" height="219" alt="image"
-                src="366077674/Image_024.jpg" /></span></p>
+                src="DocImage/Image_024.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p class="s16" style="padding-top: 4pt;padding-left: 10pt;text-indent: 0pt;text-align: left;">Figure 7 CycleGAN (a)
     </p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 152pt;text-indent: 0pt;text-align: left;"><span><img width="505" height="241" alt="image"
-                src="366077674/Image_025.jpg" /></span></p>
+                src="DocImage/Image_025.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p class="s16" style="text-indent: 0pt;text-align: right;">Figure 8 CycleGAN (b)</p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="28" alt="image"
-                src="366077674/Image_026.png" /></span></p>
+                src="DocImage/Image_026.png" /></span></p>
     <p class="s24" style="padding-top: 3pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">GENERATOR</p>
     <p style="padding-top: 12pt;padding-left: 10pt;text-indent: 0pt;line-height: 114%;text-align: justify;">The CycleGAN
         generator is the same in that it also an encoder-decoder model architecture that takes a source image and
@@ -437,7 +437,7 @@
         representation of the CycleGAN generator:</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 120pt;text-indent: 0pt;text-align: left;"><span><img width="405" height="293" alt="image"
-                src="366077674/Image_027.jpg" /></span></p>
+                src="DocImage/Image_027.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-top: 9pt;padding-left: 10pt;text-indent: 0pt;text-align: left;">The generator have three
@@ -467,7 +467,7 @@
         </li>
     </ul>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="28" alt="image"
-                src="366077674/Image_028.png" /></span></p>
+                src="DocImage/Image_028.png" /></span></p>
     <p class="s24" style="padding-top: 3pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">DISCRIMINATOR</p>
     <p style="padding-top: 12pt;padding-left: 10pt;text-indent: 0pt;line-height: 114%;text-align: justify;">The
         discriminator is a Convolutional Neural Network that performs image classification. The discriminator design of
@@ -486,19 +486,19 @@
         map, rather than across features in a batch which is done by Batch Normalization.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 157pt;text-indent: 0pt;text-align: left;"><span><img width="307" height="88" alt="image"
-                src="366077674/Image_029.jpg" /></span></p>
+                src="DocImage/Image_029.jpg" /></span></p>
     <p class="s16" style="padding-top: 10pt;padding-left: 230pt;text-indent: 0pt;text-align: left;">Figure 10
         Normalizations</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 132pt;text-indent: 0pt;text-align: left;"><span><img width="371" height="40" alt="image"
-                src="366077674/Image_030.jpg" /></span></p>
+                src="DocImage/Image_030.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 111pt;text-indent: 0pt;text-align: left;"><span><img width="428" height="270" alt="image"
-                src="366077674/Image_031.jpg" /></span></p>
+                src="DocImage/Image_031.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p class="s16" style="padding-left: 195pt;text-indent: 0pt;text-align: center;">Figure 11 CycleGAN Discriminator</p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="28" alt="image"
-                src="366077674/Image_032.png" /></span></p>
+                src="DocImage/Image_032.png" /></span></p>
     <p class="s24" style="padding-top: 3pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">LOSS FUNCTION</p>
     <p style="padding-top: 12pt;padding-left: 10pt;text-indent: 0pt;line-height: 115%;text-align: justify;">The
         discriminator models are directly trained on images whereas the generator models are updated to minimize the
@@ -506,20 +506,20 @@
             loss</span>. As such, they are encouraged to generate images that better fit into the target domain.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 152pt;text-indent: 0pt;text-align: left;"><span><img width="314" height="40" alt="image"
-                src="366077674/Image_033.jpg" /></span></p>
+                src="DocImage/Image_033.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 10pt;text-indent: 0pt;line-height: 114%;text-align: justify;">The generator models are also
         updated based on how effective they are at the regeneration of a source image when used with the other generator
         model, called <span class="s8">cycle loss</span>.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 168pt;text-indent: 0pt;text-align: left;"><span><img width="277" height="71" alt="image"
-                src="366077674/Image_034.jpg" /></span></p>
+                src="DocImage/Image_034.jpg" /></span></p>
     <p style="padding-top: 9pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">The generator model is expected
         to output an image without translation when provided an example from the target domain, called <span
             class="s8">identity loss</span>.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 162pt;text-indent: 0pt;text-align: left;"><span><img width="292" height="57" alt="image"
-                src="366077674/Image_035.jpg" /></span></p>
+                src="DocImage/Image_035.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 10pt;text-indent: 0pt;text-align: justify;">Altogether, each generator model is optimized
         via the combination of four outputs with four-loss functions:</p>
@@ -548,7 +548,7 @@
     <p class="s25" style="padding-top: 4pt;padding-bottom: 3pt;padding-left: 7pt;text-indent: 0pt;text-align: left;">
         GENERATOR A COMPOSITE MODEL</p>
     <p style="padding-left: 5pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="703" height="1"
-                alt="image" src="366077674/Image_036.png" /></span></p>
+                alt="image" src="DocImage/Image_036.png" /></span></p>
     <p style="padding-top: 9pt;padding-left: 7pt;text-indent: 0pt;text-align: left;">The inputs, transformations, and
         outputs of the model are as follows:</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
@@ -749,7 +749,7 @@
     <p class="s25" style="padding-top: 5pt;padding-bottom: 3pt;padding-left: 7pt;text-indent: 0pt;text-align: left;">
         GENERATOR B COMPOSITE MODEL</p>
     <p style="padding-left: 5pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="703" height="1"
-                alt="image" src="366077674/Image_037.png" /></span></p>
+                alt="image" src="DocImage/Image_037.png" /></span></p>
     <p style="padding-top: 9pt;padding-left: 7pt;text-indent: 0pt;text-align: left;">The inputs, transformations, and
         outputs of the model are as follows:</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
@@ -978,9 +978,9 @@
         Handwritten Dataset is used in this project. Dataset is consists of texts from the books named “The Biography of
         Swami Vivekananda” and “The Secret” . Which has different type of writing styles.</p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="252" height="351" alt="image"
-                src="366077674/Image_038.jpg" /></span></p>
+                src="DocImage/Image_038.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="713" height="469" alt="image"
-                src="366077674/Image_039.png" /></span></p>
+                src="DocImage/Image_039.png" /></span></p>
     <p style="padding-top: 9pt;padding-left: 10pt;text-indent: 0pt;line-height: 182%;text-align: left;">This dataset
         contains 1200+ lines and around 9000+ words. Each Page contains average 23 lines on a page with size of A4.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
@@ -992,7 +992,7 @@
             PRE-PROCESSING </span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="29" alt="image"
-                src="366077674/Image_040.png" /></span></p>
+                src="DocImage/Image_040.png" /></span></p>
     <p class="s17" style="padding-top: 13pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">LINE DETECTION</p>
     <p style="padding-top: 12pt;padding-left: 10pt;text-indent: 0pt;line-height: 114%;text-align: justify;">The given
         image has no guidelines; the text is written on the simple paper, In that case, we can simply find the
@@ -1014,7 +1014,7 @@
         of contours of white and black colour representing text and blank side respectively, Later we extract lines by
         finding these contours and splitting pages into lines.</p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="220" height="162" alt="image"
-                src="366077674/Image_041.jpg" /></span></p>
+                src="DocImage/Image_041.jpg" /></span></p>
     <p style="padding-top: 10pt;padding-left: 5pt;text-indent: 0pt;text-align: justify;">Horizontal Histogram</p>
     <ul id="l5">
         <li style="padding-top: 12pt;padding-left: 23pt;text-indent: -18pt;text-align: justify;">
@@ -1041,18 +1041,18 @@
         Histogram</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 153pt;text-indent: 0pt;text-align: left;"><span><img width="286" height="307" alt="image"
-                src="366077674/Image_042.jpg" /></span></p>
+                src="DocImage/Image_042.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p class="s16" style="padding-top: 4pt;padding-left: 223pt;text-indent: 0pt;text-align: center;">Figure 14 Line
         Detection</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 113pt;text-indent: 0pt;text-align: left;"><span><img width="439" height="30" alt="image"
-                src="366077674/Image_043.jpg" /></span></p>
+                src="DocImage/Image_043.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p class="s16" style="padding-top: 4pt;padding-left: 223pt;text-indent: 0pt;text-align: center;">Figure 15 Segmented
         Line</p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="29" alt="image"
-                src="366077674/Image_044.png" /></span></p>
+                src="DocImage/Image_044.png" /></span></p>
     <p class="s17" style="padding-top: 3pt;padding-left: 10pt;text-indent: 0pt;text-align: left;">WORD SEGMENTATION</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-top: 5pt;padding-left: 10pt;text-indent: 0pt;line-height: 114%;text-align: justify;">Using
@@ -1075,12 +1075,12 @@
         words by finding these contours and splitting lines into words.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 140pt;text-indent: 0pt;text-align: left;"><span><img width="349" height="144" alt="image"
-                src="366077674/Image_045.jpg" /></span></p>
+                src="DocImage/Image_045.jpg" /></span></p>
     <p class="s16" style="padding-top: 12pt;padding-left: 195pt;text-indent: 0pt;text-align: center;">Figure 16 Vertical
         Histogram</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 122pt;text-indent: 0pt;text-align: left;"><span><img width="399" height="27" alt="image"
-                src="366077674/Image_046.jpg" /></span></p>
+                src="DocImage/Image_046.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p class="s16" style="padding-left: 195pt;text-indent: 0pt;text-align: center;">Figure 17 Words from Line</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
@@ -1098,14 +1098,14 @@
     </ul>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="96" height="38" alt="image"
-                src="366077674/Image_047.jpg" /></span></p>
+                src="DocImage/Image_047.jpg" /></span></p>
     <p style="padding-left: 145pt;text-indent: 0pt;text-align: left;">]<span><img width="101" height="38" alt="image"
-                src="366077674/Image_048.jpg" /></span><span class="s1"> </span><span><img width="61" height="38"
-                alt="image" src="366077674/Image_049.jpg" /></span></p>
+                src="DocImage/Image_048.jpg" /></span><span class="s1"> </span><span><img width="61" height="38"
+                alt="image" src="DocImage/Image_049.jpg" /></span></p>
     <p class="s16" style="padding-top: 12pt;padding-left: 195pt;text-indent: 0pt;text-align: center;">Figure 18
         Segmented Words</p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="29" alt="image"
-                src="366077674/Image_050.png" /></span></p>
+                src="DocImage/Image_050.png" /></span></p>
     <p class="s17" style="padding-top: 3pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">RESIZING AND
         NORMALIZING</p>
     <p style="padding-top: 12pt;padding-left: 10pt;text-indent: 0pt;line-height: 114%;text-align: justify;">The pixel
@@ -1123,7 +1123,7 @@
         this does not hinder with the image texture or looks.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="29" alt="image"
-                src="366077674/Image_051.png" /></span></p>
+                src="DocImage/Image_051.png" /></span></p>
     <p class="s17" style="padding-left: 10pt;text-indent: 0pt;text-align: justify;">NUMPY COMPRESSED ARRAY (.NPZ)</p>
     <p style="padding-top: 12pt;padding-left: 10pt;text-indent: 0pt;line-height: 114%;text-align: justify;">To save the
         large object we can compress the numpy arrays. After Resizing Convert into the Numpy Compressed Array for Faster
@@ -1131,11 +1131,11 @@
         savez_compressed() function is used to save several arrays into a single file in compressed .npz format.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="29" alt="image"
-                src="366077674/Image_052.png" /></span></p>
+                src="DocImage/Image_052.png" /></span></p>
     <p class="s17" style="padding-left: 10pt;text-indent: 0pt;text-align: justify;">LABELLING WORDS</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 65pt;text-indent: 0pt;text-align: left;"><span><img width="546" height="243" alt="image"
-                src="366077674/Image_053.jpg" /></span></p>
+                src="DocImage/Image_053.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p class="s16" style="padding-top: 4pt;padding-left: 195pt;text-indent: 0pt;text-align: center;">Figure 19 GUI for
         Labelling Words</p>
@@ -1151,9 +1151,9 @@
         </span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="246" height="699" alt="image"
-                src="366077674/Image_054.jpg" /></span></p>
+                src="DocImage/Image_054.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="244" height="255" alt="image"
-                src="366077674/Image_055.jpg" /></span></p>
+                src="DocImage/Image_055.jpg" /></span></p>
     <p style="padding-top: 5pt;padding-left: 12pt;text-indent: 2pt;line-height: 114%;text-align: justify;">The training
         approach was fairly typical for an image-to-image translation task. we load our paired images dataset in
         compressed NumPy array format. This will return a list of two NumPy arrays: the first for source images and the
@@ -1167,7 +1167,7 @@
         Architecture of both the model remains the same and have the same number of parameters.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 244pt;text-indent: 0pt;text-align: left;"><span><img width="326" height="138" alt="image"
-                src="366077674/Image_056.jpg" /></span></p>
+                src="DocImage/Image_056.jpg" /></span></p>
     <p class="s28" style="padding-top: 7pt;padding-left: 198pt;text-indent: 0pt;line-height: 114%;text-align: justify;">
         This is model summary, on the left we have generator and on the right we have discriminator and GAN composite
         model. As we know by now that CycleGAN has 2 generator 2 discriminator and hence 2 GAN composite models.
@@ -1232,10 +1232,10 @@
         </tr>
     </table>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="29" alt="image"
-                src="366077674/Image_057.png" /></span></p>
+                src="DocImage/Image_057.png" /></span></p>
     
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="29" alt="image"
-                src="366077674/Image_074.png" /></span></p>
+                src="DocImage/Image_074.png" /></span></p>
     <p class="s17" style="padding-top: 10pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;">EVALUATION &amp;
         OPTIMIZATION</p>
     <p style="padding-top: 12pt;padding-left: 10pt;text-indent: 0pt;line-height: 114%;text-align: left;">Overfitting was
@@ -1261,25 +1261,25 @@
     <p class="s30" style="padding-top: 2pt;padding-left: 10pt;text-indent: 0pt;text-align: justify;"><span class="s1">
         </span><span class="p">Change Loss function: Wasserstein Loss</span></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="28" alt="image"
-                src="366077674/Image_075.png" /></span></p>
+                src="DocImage/Image_075.png" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="515" height="269" alt="image"
-                src="366077674/Image_076.jpg" /></span></p>
+                src="DocImage/Image_076.jpg" /></span></p>
     <p class="s24" style="padding-top: 3pt;padding-left: 10pt;text-indent: 0pt;text-align: left;">PIX2PIX LOSS LOGS</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="524" height="275" alt="image"
-                src="366077674/Image_077.jpg" /></span></p>
+                src="DocImage/Image_077.jpg" /></span></p>
     <p class="s16" style="padding-left: 33pt;text-indent: 0pt;text-align: center;">Figure 20 pix2pix model is getting
         overfit with line dataset</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="533" height="281" alt="image"
-                src="366077674/Image_078.jpg" /></span></p>
+                src="DocImage/Image_078.jpg" /></span></p>
     <p class="s16" style="padding-left: 32pt;text-indent: 0pt;text-align: center;">Figure 21 Pix2pix model with less
         layers in architecture</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p class="s16" style="padding-left: 33pt;text-indent: 0pt;text-align: center;">Figure 22 Pix2pix model with batch
         size of 10 getting overfit</p>
     <p style="padding-left: 125pt;text-indent: 0pt;text-align: left;"><span><img width="379" height="285" alt="image"
-                src="366077674/Image_079.jpg" /></span></p>
+                src="DocImage/Image_079.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p class="s16" style="padding-top: 4pt;padding-left: 175pt;text-indent: 0pt;text-align: left;">Figure 23 Overfitting
         of Pix2pix model on word dataset</p>
@@ -1299,16 +1299,16 @@
         collapse and overshooting the validation loss won’t occur. Yet it is very hard to train and understand when to
         stop training, one can only visualize the results while training to see the progress and know when to stop.</p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="706" height="28" alt="image"
-                src="366077674/Image_080.png" /></span></p>
+                src="DocImage/Image_080.png" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="559" height="288" alt="image"
-                src="366077674/Image_081.jpg" /></span></p>
+                src="DocImage/Image_081.jpg" /></span></p>
     <p class="s24" style="padding-top: 3pt;padding-left: 10pt;text-indent: 0pt;text-align: left;">CYCLEGAN LOSS LOGS</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p class="s16" style="padding-left: 10pt;text-indent: 0pt;text-align: left;">Figure 24 CycleGAN model with line
         dataset</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 63pt;text-indent: 0pt;text-align: left;"><span><img width="550" height="289" alt="image"
-                src="366077674/Image_082.jpg" /></span></p>
+                src="DocImage/Image_082.jpg" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p class="s16" style="padding-top: 4pt;padding-left: 195pt;text-indent: 0pt;text-align: center;">Figure 25 CycleGAN
         model with word dataset</p>
@@ -1327,7 +1327,7 @@
         </span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 10pt;text-indent: 0pt;text-align: left;"><span><img width="607" height="332" alt="image"
-                src="366077674/Image_083.jpg" /></span></p>
+                src="DocImage/Image_083.jpg" /></span></p>
     <p class="s16" style="padding-top: 10pt;padding-left: 206pt;text-indent: 0pt;text-align: center;">Figure 26
         Deployment</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
@@ -1342,7 +1342,7 @@
         input sample model generate the image which again sent to the user back.</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;text-align: left;"><span><img width="684" height="353" alt="image"
-                src="366077674/Image_084.png" /></span></p>
+                src="DocImage/Image_084.png" /></span></p>
     <p class="s16" style="padding-top: 4pt;padding-left: 200pt;text-indent: 0pt;text-align: center;">Figure 27 User
         Interface of webapp</p>
     <p style="padding-top: 4pt;padding-left: 5pt;text-indent: 0pt;text-align: left;"><span class="s7"
@@ -1354,7 +1354,7 @@
             WITH LINES DATASET </span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 61pt;text-indent: 0pt;text-align: left;"><span><img width="561" height="187" alt="image"
-                src="366077674/Image_085.png" /></span></p>
+                src="DocImage/Image_085.png" /></span></p>
     <p class="s16" style="padding-top: 11pt;padding-left: 206pt;text-indent: 0pt;text-align: center;">Figure 28 Results
         with Line dataset</p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
@@ -1362,10 +1362,10 @@
             class="s15" style=" background-color: #D4EAF3;">RESULTS WITH WORD DATASET </span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 105pt;text-indent: 0pt;text-align: left;"><span><img width="449" height="121" alt="image"
-                src="366077674/Image_086.png" /></span></p>
+                src="DocImage/Image_086.png" /></span></p>
     <p style="text-indent: 0pt;text-align: left;"><br /></p>
     <p style="padding-left: 54pt;text-indent: 0pt;text-align: left;"><span><img width="578" height="154" alt="image"
-                src="366077674/Image_087.png" /></span></p>
+                src="DocImage/Image_087.png" /></span></p>
     <p class="s16" style="padding-top: 12pt;padding-left: 206pt;text-indent: 0pt;text-align: center;">Figure 29 Results
         with word dataset</p>
     <p style="padding-top: 4pt;padding-left: 5pt;text-indent: 0pt;text-align: left;"><span class="s7"
